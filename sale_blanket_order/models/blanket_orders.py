@@ -6,7 +6,6 @@ from odoo.exceptions import UserError
 from odoo.tools import float_is_zero
 from odoo.tools.misc import format_date
 
-
 class BlanketOrder(models.Model):
     _name = "sale.blanket.order"
     _inherit = ["mail.thread", "mail.activity.mixin"]
